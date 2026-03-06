@@ -14,7 +14,7 @@ let yRaquete = 150;
 
 // Raquete Oponente
 let xRaqueteOponente = 585;
-let yraqueteOponente = 150;
+let yRaqueteOponente = 150;
 
 // Placar
 let meusPontos = 0;
@@ -46,7 +46,7 @@ function draw(){
   if (keyIsDown(UP_ARROW)){
     yRaquete -= 10}
   
-  if(KeyIsDown(DOWN_ARROW)){
+  if(keyIsDown(DOWN_ARROW)){
     yRaquete += 10}
   
   if(xBolinha -raio < xRaquete + 10 & 
